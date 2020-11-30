@@ -98,6 +98,11 @@ namespace ITMO.WindowsApps.CSharp.Lab02_06
             get { return (int)numericUpDown6.Value; }
             set { numericUpDown6.Value = value; }
         }
+        public bool IfSubs
+        {
+            get { return checkBox4.Checked; }
+            set { checkBox4.Checked = true; }
+        }
         public bool Taken
         {
             get { return checkBox5.Checked; }
@@ -107,17 +112,21 @@ namespace ITMO.WindowsApps.CSharp.Lab02_06
 
        private void button4_Click_1(object sender, EventArgs e)
         {
-            Magazine m = new Magazine(Volume, Number, TitleM, YearM, InvNumberM, Taken);
+            Magazine m = new Magazine(Volume, Number, TitleM, YearM, InvNumberM, IfSubs);
 
             if (Taken)
                 m.Return();
+
+            if (IfSubs)
+                m.Subs();
 
             its.Add(m);
 
             Volume = TitleM = "";
             Number = InvNumberM = 0;
-            YearM = 2000;
+            YearM = 1900;
             Taken = false;
+            IfSubs = false;
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -133,7 +142,7 @@ namespace ITMO.WindowsApps.CSharp.Lab02_06
 
             Author = Title = PublishHouse = "";
             Page = InvNumber = PeriodUse = 0;
-            Year = 2000;
+            Year = 1900;
             Existence = ReturnTime = false;
         }
 
