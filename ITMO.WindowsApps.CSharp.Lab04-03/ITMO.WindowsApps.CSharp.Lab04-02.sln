@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WindowsApps.CSharp.Lab04-03", "ITMO.WindowsApps.CSharp.Lab04-03.csproj", "{81387290-5895-4E59-8DEB-8DC9A8BE3ED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81387290-5895-4E59-8DEB-8DC9A8BE3ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81387290-5895-4E59-8DEB-8DC9A8BE3ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81387290-5895-4E59-8DEB-8DC9A8BE3ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81387290-5895-4E59-8DEB-8DC9A8BE3ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5470F4B7-A3B9-4372-BB67-7918FEFFE566}
+	EndGlobalSection
+EndGlobal
